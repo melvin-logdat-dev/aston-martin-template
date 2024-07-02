@@ -13,7 +13,7 @@
       "template": "am-header.mjml",
       "variables": {
         "headerBackground": "#00665F",
-        "imgSrc": "https://i.postimg.cc/W1p6KqHb/Aston-Martin-Logo.png",
+        "imgSrc": "https://github.com/melvin-logdat-dev/aston-martin-template/blob/main/images/Aston%20Martin%20Logo.png?raw=true",
         "imgAlt": "ASTON MARTIN",
         "height": "48px",
         "width": "212px",
@@ -25,7 +25,7 @@
     {
       "template": "hero-1.mjml",
       "variables": {
-        "imgSrc": "https://i.postimg.cc/hPzyS58Q/hero2.png",
+        "imgSrc": "https://github.com/melvin-logdat-dev/aston-martin-template/blob/main/images/hero2.png?raw=true",
         "padding": "0px"
       }
     },
@@ -55,7 +55,7 @@
         "sectionBackground": "#004F59",
         "contentBlocks": [
           {
-            "imgSrc": "https://i.postimg.cc/T32cKNgc/group-image-2.png",
+            "imgSrc": "https://github.com/melvin-logdat-dev/aston-martin-template/blob/main/images/group-image-2.png?raw=true",
             "imgAlt": "Car Image",
             "contentBodyBlocks": [
               {
