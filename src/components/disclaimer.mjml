@@ -1,0 +1,20 @@
+<!-- START: Disclaimer -->
+<mj-raw>
+  <style>
+    /* START: head-styles */
+    @media screen and (max-width: 639px) {
+      .disclaimer-section > table > tbody > tr > td {
+        padding: 24px 20px !important;
+      }
+    }
+    /* END: head-styles */
+  </style>
+</mj-raw>
+<mj-section background-color="#F4F4F4" padding="24px 40px" css-class="disclaimer-section">
+  <mj-column padding="0">
+    <mj-text font-size="10px" line-height="15px" letter-spacing="0.5px" align="center">
+      {{{disclaimer}}}
+    </mj-text>
+  </mj-column>
+</mj-section>
+<!-- END: Disclaimer -->

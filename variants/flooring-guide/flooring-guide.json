@@ -1,0 +1,107 @@
+{
+	"name": "flooring-guide",
+	"content": [
+		{
+      "template" : "header-view-on-web.mjml",
+      "variables" : {
+        "text" : "Start your flooring project with confidence.",
+        "linkText" : "View on Web",
+        "link" : "{$viewInBrowserLink}"
+      }
+    },
+    {
+      "template" : "header.mjml",
+      "variables" : {
+        "imgSrc" : "https://rhythm-email.s3.us-west-1.amazonaws.com/coretec/header-logo.png",
+        "imgAlt" : "Logo Alt",
+        "width" : "124px",
+        "height" : "74px",
+        "headerText" : "Plan Your Project.",
+        "link": "https://coretecfloors.com/en-us?utm_medium=sharpspring&utm_source=email&utm_campaign=thank_you&utm_id=flooring_guide&utm_content=COREtec_logo"
+      }
+    },
+    {
+      "template" : "hero-1.mjml",
+      "variables" : {
+        "imgSrc" : "https://rhythm-email.s3.us-west-1.amazonaws.com/coretec/flooring-guide-hero.png",
+        "imgAlt" : "Your Flooring Buyer’s Guide Has Arrived",
+        "padding" : "0px",
+        "backgroundColor" : "#E4F4F4",
+        "link" : "https://shawfloors.widen.net/s/zjwdbjrjxm/coretec-flooring-buyers-guide?utm_medium=sharpspring&utm_source=email&utm_campaign=thank_you&utm_id=flooring_guide&utm_content=download_now"
+      }
+    },
+    {
+      "template" : "two-column-section.mjml",
+      "variables" : {
+        "header" : "Explore More From COREtec",
+        "col1Image" : "https://rhythm-email.s3.us-west-1.amazonaws.com/coretec/flooring-guide-img-1.png",
+        "col1Header" : "Design For Your Lifestyle",
+        "col1LinkText" : "Read The Blog",
+        "col1Link" : "https://coretecfloors.com/en-us/blog?utm_medium=sharpspring&utm_source=email&utm_campaign=thank_you&utm_id=flooring_guide&utm_content=read_the_blog",
+        "col2Image" : "https://rhythm-email.s3.us-west-1.amazonaws.com/coretec/tool.gif",
+        "col2Header" : "Get A Virtual Makeover",
+        "col2LinkText" : "Try The Tool",
+        "col2Link" : "https://coretecfloors.com/en-us/?roomvoStartVisualizer=true"
+      }
+    },
+    {
+      "template" : "blog-3.mjml",
+      "variables" : {
+        "backgroundColor" : "#FFFFFF",
+        "imgSrc" : "https://rhythm-email.s3.us-west-1.amazonaws.com/coretec/flooring-guide-img-2.png",
+        "imgAlt" : "Put COREtec to the Test",
+        "sectionHeading" : "Put COREtec To The Test",
+        "sectionContents" : "Experience the quality of COREtec floors by ordering samples of your favorite styles today.",
+        "buttonText" : "Order Samples",
+        "buttonLink" : "https://coretecfloors.com/en-us/buy-flooring-samples?utm_medium=sharpspring&utm_source=email&utm_campaign=thank_you&utm_id=flooring_guide&utm_content=order_samples",
+        "align" : "center"
+      }
+    },
+    {
+      "template" : "footer.mjml",
+      "variables" : {
+        "backgroundColor" : "#005DA6",
+        "footerText" : "Follow Us On:",
+        "socialMedias" : [
+          {
+            "linkImgSrc" : "https://rhythm-email.s3.us-west-1.amazonaws.com/coretec/facebook.png",
+            "linkImgAlt" : "Facebook",
+            "link" : "https://www.facebook.com/COREtecFloors?utm_medium=sharpspring&utm_source=email&utm_campaign=thank_you&utm_id=flooring_guide&utm_content=FB_icon",
+            "iconWidth" : "24px",
+            "iconHeight" : "24px",
+            "paddings" : "0 15px 0 0"
+          },
+          {
+            "linkImgSrc" : "https://rhythm-email.s3.us-west-1.amazonaws.com/coretec/instagram.png",
+            "linkImgAlt" : "Instagram",
+            "link" : "https://www.instagram.com/coretecfloors/?utm_medium=sharpspring&utm_source=email&utm_campaign=thank_you&utm_id=flooring_guide&utm_content=IG_icon",
+            "iconWidth" : "24px",
+            "iconHeight" : "24px",
+            "paddings" : "0 14px"
+          },
+          {
+            "linkImgSrc" : "https://rhythm-email.s3.us-west-1.amazonaws.com/coretec/pinterest.png",
+            "linkImgAlt" : "Pinterest",
+            "link" : "https://www.pinterest.com/coretecfloors/?utm_medium=sharpspring&utm_source=email&utm_campaign=thank_you&utm_id=flooring_guide&utm_content=pinterest_icon",
+            "iconWidth" : "24px",
+            "iconHeight" : "24px",
+            "paddings" : "0 14px"
+          },
+          {
+            "linkImgSrc" : "https://rhythm-email.s3.us-west-1.amazonaws.com/coretec/youtube.png",
+            "linkImgAlt" : "Youtube",
+            "link" : "https://www.youtube.com/@coretecfloors2975?utm_medium=sharpspring&utm_source=email&utm_campaign=thank_you&utm_id=flooring_guide&utm_content=youtube_icon",
+            "iconWidth" : "24px",
+            "iconHeight" : "24px",
+            "paddings" : "0 14px"
+          }
+        ],
+        "footerTexts" : [
+          "Your privacy is important to us. <a href=\"https://coretecfloors.com/en-us/privacy-policy?utm_medium=sharpspring&utm_source=email&utm_campaign=thank_you&utm_id=flooring_guide&utm_content=footer\" target=\"_blank\" style=\"color: #FFFFFF;\">Read our Privacy Statement.</a><br>If you wish to unsubscribe, simply <a href=\"{$unsubscribeLink}\" target=\"_blank\" style=\"color: #FFFFFF;\">click here.</a>",
+          "Shaw Industries Group, Inc.  |  616 E. Walnut Avenue  |  Dalton, GA 30722<br>© 2024 COREtec, All Rights Reserved. Shaw Industries Group inc.,<br>a Berkshire Hathaway Company"
+        ]
+      }
+    }
+	],
+	"dateModified": "2022-08-04T01:49:12.384Z"
+}

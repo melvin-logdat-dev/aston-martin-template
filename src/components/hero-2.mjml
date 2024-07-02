@@ -1,0 +1,43 @@
+<!-- START: Hero Image 2 -->
+<mj-raw>
+  <style>
+    /* START: head-styles */
+    @media screen and (max-width: 639px) {
+      .hero-2-title {
+        padding: 40px 20px 24px 20px !important;
+      }
+
+      .hero-2-title > div {
+        font-size: 40px !important;
+        line-height: 48px !important;
+      }
+
+      .hero-2-button-sec > table > tbody > tr > td {
+          padding-top: 68px !important;
+      }
+
+      .hero-2-section > table > tbody > tr > td  {
+          padding-bottom: 24px !important;
+      }
+    }
+    /* END: head-styles */
+  </style>
+</mj-raw>
+<mj-wrapper background-color="{{backgroundColor}}" padding="0 0 48px" css-class="hero-2-section">
+  <mj-section padding="0">
+    <mj-column padding="{{padding}}">
+      <mj-text mj-class="font-header-4" align="center" padding="56px 48px 27px 47px" css-class="hero-2-title">
+        {{{heroTitle}}}
+      </mj-text>
+      <mj-image src="{{imgSrc}}" alt="{{imgAlt}}" css-class="hero-image" href="{{link}}" />
+    </mj-column>
+  </mj-section>
+  <mj-section padding="28px 0 0" css-class="hero-2-button-sec">
+    <mj-column padding="{{padding}}">
+      <mj-button href="{{buttonLink}}" padding="0">
+        {{buttonText}} →
+      </mj-button>
+    </mj-column>
+  </mj-section>
+</mj-wrapper>
+<!-- END: Hero Image 2 -->

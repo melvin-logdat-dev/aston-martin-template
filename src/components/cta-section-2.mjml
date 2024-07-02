@@ -1,0 +1,67 @@
+<!-- START: CTA Section 2 -->
+<style>
+    /* START: head-styles */
+    @media screen and (max-width: 639px) {
+      .cta-section-2 > table > tbody > tr > td {
+        padding: 40px 20px !important;
+      }
+
+      .cta-section-2-text-padding > table > tbody > tr > td {
+        padding-left: 20px !important;
+      }
+
+      .cta-section-2-texts > div {
+        font-size: 12px !important;
+        line-height: 18px !important;
+      }
+    }
+    /* END: head-styles */
+  </style>
+<mj-wrapper padding="0">
+  {{#each sections}} 
+    <mj-section padding="40px" css-class="cta-section-2">
+      <mj-group>
+        <mj-column width="160px" css-class="cta-section-2-image-padding">
+          <mj-image src="{{imgSrc}}" alt="{{imgAlt}}" />
+        </mj-column>
+        <mj-column width="399px" padding="0 0 0 40px" css-class="cta-section-2-text-padding">
+          <mj-text mj-class="font-header-1" css-class="font-header-1 blog-header" padding-bottom="16px">
+            {{blogHeader}}
+          </mj-text>
+          
+          {{#if blogTexts}}
+            <mj-text padding-bottom="16px" css-class="cta-section-2-texts">
+              {{{blogTexts}}}
+            </mj-text>
+          {{/if}}
+          
+          <mj-raw>
+            <tr>
+              <td style="padding-bottom: 16px;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
+                  <tbody>
+                    <tr>
+                      <td align="center" bgcolor="#ffffff" role="presentation" style="cursor:auto;mso-padding-alt: 0px 0px 8px 0px;background:#ffffff;text-decoration: none;color: #2D2A26;text-transform: uppercase;font-size: 16px;line-height: 26px;letter-spacing: 0.5px;font-weight: 700;border-bottom: 2px solid #005DA6;padding-bottom: 8px;" valign="middle">
+                        <a href="{{link}}" style="display:inline-block;background:#ffffff;font-family:'Inter', Helvetica, Arial, 'sans-serif';margin:0;padding: 0;mso-padding-alt:0px;text-decoration: none;color: #2D2A26;text-transform: uppercase;font-size: 16px;line-height: 26px;letter-spacing: 0.5px;font-weight: 700;" target="_blank">
+                          {{buttonText}}
+                        </a>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          </mj-raw>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    {{#if divider}}
+      <mj-section css-class="blog-dividers">
+        <mj-column>
+          <mj-divider border-width="1px" border-color="#BFBFBF" />
+        </mj-column>
+      </mj-section>
+    {{/if}}
+  {{/each}}
+</mj-wrapper>
+<!-- END: CTA Section 2 -->

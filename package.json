@@ -1,0 +1,42 @@
+{
+  "name": "Email MJML Template v2",
+  "version": "1.0.0",
+  "description": "Examples",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "npm run build && npm run watch",
+    "dev": "concurrently --kill-others \"npm run start\" \"npm run serve\"",
+    "build": "node src/js/combine",
+    "serve": "node src/js/serve",
+    "test": "node src/js/send-email",
+    "watch": "chokidar \"src\" \"variants/**/*.json\" -i \"/variants\" -c \"npm run build\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://rhonivanpareja@bitbucket.org/rhythminteractive/coretec-emails.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/rhythminteractive/coretec-emails/issues/"
+  },
+  "homepage": "https://bitbucket.org/rhythminteractive/coretec-emails#readme",
+  "dependencies": {
+    "chokidar": "^3.6.0",
+    "chokidar-cli": "^3.0.0",
+    "commander": "^12.0.0",
+    "globby": "^14.0.1",
+    "handlebars": "^4.7.8",
+    "linebyline": "^1.3.0",
+    "live-server": "^1.2.2",
+    "mjml": "^4.15.3",
+    "mjml-bullet-list": "^1.2.2",
+    "nodemailer": "^6.9.13",
+    "nodemailer-mjml": "^1.3.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

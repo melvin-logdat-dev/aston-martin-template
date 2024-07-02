@@ -1,0 +1,193 @@
+<!-- START: Two Column Section -->
+<mj-raw>
+  <style>
+    /* START: head-styles */
+    .image-block img {
+      height: 200px !important;
+    }
+    @media screen and (max-width: 639px) {
+      .two-column-section__cols > table > tbody > tr > td {
+        padding: 0 0 40px 0 !important;
+      }
+
+      .two-column-section > table > tbody > tr > td {
+        padding: 32px 20px 0 20px !important;
+      }
+
+      .dekstop-no-stack .two-column-section__cols {
+        width: 100% !important;
+      }
+
+      .image-block td, .image-block table {
+        width: 100% !important;
+      }
+      
+      .image-block img {
+        height: auto !important;
+      }
+    }
+
+    
+    /* END: head-styles */
+  </style>
+</mj-raw>
+<mj-wrapper
+  padding="40px 40px 48px"
+  css-class="two-column-section"
+  background-color="#ECF9F9"
+>
+  <mj-section padding-bottom="40px">
+    <mj-column>
+      <mj-text
+        mj-class="font-header-1"
+        align="center"
+        css-class="font-header-1"
+      >
+        {{header}}
+      </mj-text>
+    </mj-column>
+  </mj-section>
+  <mj-section>
+    <mj-group css-class="dekstop-no-stack">
+      <mj-column css-class="two-column-section__cols" padding-right="20px">
+      <mj-image
+        src="{{col1Image}}"
+        alt="{{col1Header}}"
+        padding-bottom="24px"
+        height="200px"
+        css-class="image-block"
+      />
+      <mj-text mj-class="font-header" align="center" padding-bottom="16px">
+        {{col1Header}}
+      </mj-text>
+      <mj-raw>
+        <tr>
+          <td align="center">
+            <table
+              border="0"
+              cellpadding="0"
+              cellspacing="0"
+              role="presentation"
+              style="border-collapse: separate; line-height: 100%"
+            >
+              <tbody>
+                <tr>
+                  <td
+                    align="center"
+                    role="presentation"
+                    style="
+                      cursor: auto;
+                      mso-padding-alt: 0px 0px 2px 0px;
+                      text-decoration: none;
+                      color: #2d2a26;
+                      text-transform: uppercase;
+                      font-size: 16px;
+                      line-height: 26px;
+                      letter-spacing: 0.5px;
+                      font-weight: 700;
+                      border-bottom: 2px solid #005da6;
+                      padding-bottom: 2px;
+                    "
+                    valign="middle"
+                  >
+                    <a
+                      href="{{col1Link}}"
+                      style="
+                        display: inline-block;
+                        font-family: 'Inter', Helvetica, Arial, 'sans-serif';
+                        margin: 0;
+                        padding: 0;
+                        mso-padding-alt: 0px;
+                        text-decoration: none;
+                        color: #2d2a26;
+                        text-transform: uppercase;
+                        font-size: 16px;
+                        line-height: 26px;
+                        letter-spacing: 0.5px;
+                        font-weight: 700;
+                      "
+                      target="_blank"
+                    >
+                      {{col1LinkText}}
+                    </a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </mj-raw>
+    </mj-column>
+    <mj-column css-class="two-column-section__cols" padding-left="20px">
+      <mj-image
+        src="{{col2Image}}"
+        alt="{{col2Header}}"
+        padding-bottom="24px"
+        height="200px"
+        css-class="image-block"
+      />
+      <mj-text mj-class="font-header" align="center" padding-bottom="16px">
+        {{col2Header}}
+      </mj-text>
+      <mj-raw>
+        <tr>
+          <td align="center">
+            <table
+              border="0"
+              cellpadding="0"
+              cellspacing="0"
+              role="presentation"
+              style="border-collapse: separate; line-height: 100%"
+            >
+              <tbody>
+                <tr>
+                  <td
+                    align="center"
+                    role="presentation"
+                    style="
+                      cursor: auto;
+                      mso-padding-alt: 0px 0px 2px 0px;
+                      text-decoration: none;
+                      color: #2d2a26;
+                      text-transform: uppercase;
+                      font-size: 16px;
+                      line-height: 26px;
+                      letter-spacing: 0.5px;
+                      font-weight: 700;
+                      border-bottom: 2px solid #005da6;
+                      padding-bottom: 2px;
+                    "
+                    valign="middle"
+                  >
+                    <a
+                      href="{{col2Link}}"
+                      style="
+                        display: inline-block;
+                        font-family: 'Inter', Helvetica, Arial, 'sans-serif';
+                        margin: 0;
+                        padding: 0;
+                        mso-padding-alt: 0px;
+                        text-decoration: none;
+                        color: #2d2a26;
+                        text-transform: uppercase;
+                        font-size: 16px;
+                        line-height: 26px;
+                        letter-spacing: 0.5px;
+                        font-weight: 700;
+                      "
+                      target="_blank"
+                    >
+                      {{col2LinkText}}
+                    </a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </mj-raw>
+    </mj-column>
+    </mj-group>
+  </mj-section>
+</mj-wrapper>
+<!-- END: Two Column Section -->

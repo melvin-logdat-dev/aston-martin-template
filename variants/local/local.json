@@ -1,0 +1,155 @@
+{
+	"name": "local",
+	"content": [
+		{
+      "template" : "header-view-on-web.mjml",
+      "variables" : {
+        "text" : "Shop with a local COREtec retailer.",
+        "linkText" : "View on Web",
+        "link" : "{$viewInBrowserLink}"
+      }
+    },
+    {
+      "template" : "header.mjml",
+      "variables" : {
+        "imgSrc" : "https://rhythm-email.s3.us-west-1.amazonaws.com/coretec/header-logo.png",
+        "imgAlt" : "Logo Alt",
+        "width" : "124px",
+        "height" : "74px",
+        "headerText" : "Shop Local.",
+        "link" : "https://coretecfloors.com/en-us?utm_medium=sharpspring&utm_source=email&utm_campaign=sample_orders&utm_id=shop_local&utm_content=COREtec_logo"
+      }
+    },
+    {
+      "template" : "hero-1.mjml",
+      "variables" : {
+        "imgSrc" : "https://rhythm-email.s3.us-west-1.amazonaws.com/coretec/local-hero.png",
+        "imgAlt" : "See COREtec in Your Space",
+        "padding" : "0px",
+        "link" : "https://coretecfloors.com/en-us?utm_medium=sharpspring&utm_source=email&utm_campaign=sample_orders&utm_id=shop_local&utm_content=CTA_shop_now"
+      }
+    },
+    {
+      "template" : "image-text.mjml",
+      "variables" : {
+        "headerText" : "Shop With Local Retailers",
+        "description" : "Feeling a little overwhelmed by the variety of flooring options? Visit your local retailer to get in-person expertise, view additional colorways and ask as many questions as your heart desires.",
+        "imgSrc" : "https://rhythm-email.s3.us-west-1.amazonaws.com/coretec/retailers-map.png",
+        "imgAlt" : "Image Text",
+        "link" : "https://coretecfloors.com/en-us/where-to-buy?utm_medium=sharpspring&utm_source=email&utm_campaign=sample_orders&utm_id=shop_local&utm_content=CTA_button_find_mine",
+        "buttonText" : "Find Mine",
+        "imagePadding" : "32px 0 32px 0"
+      }
+    },
+    {
+      "template" : "contact-us-section.mjml",
+      "variables" : {
+        "contactUsTitle" : "Have Questions About <br>Your Samples?",
+        "contactUsTexts" : "Contact us with any order issues <br>or questions.",
+        "contactNumber" : "1-844-743-7429",
+        "contactTime" : "Mon to Fri | 8am-6pm"
+      }
+    },
+    {
+      "template" : "3up-icons.mjml",
+      "variables" : {
+        "3up-title" : "Simple And Flexible <br>Financing Solutions*",
+        "buttonText" : "Apply Now",
+        "buttonLink" : "https://coretecfloors.com/en-us/financing?utm_medium=sharpspring&utm_source=email&utm_campaign=sample_orders&utm_id=shop_local&utm_content=CTA_apply_now",
+        "icons" : [
+          {
+            "imgSrc" : "https://rhythm-email.s3.us-west-1.amazonaws.com/coretec/solutions-icon-1.png",
+            "imgAlt" : "3up Image 1",
+            "title" : "COMPETITIVE INTEREST RATES",
+            "padding" : "0 12px 0 0"
+          },
+          {
+            "imgSrc" : "https://rhythm-email.s3.us-west-1.amazonaws.com/coretec/solutions-icon-2.png",
+            "imgAlt" : "3up Image 2",
+            "title" : "NO ANNUAL FEE <sup>1</sup>",
+            "padding" : "0 12px 0 12px"
+          },
+          {
+            "imgSrc" : "https://rhythm-email.s3.us-west-1.amazonaws.com/coretec/solutions-icon-3.png",
+            "imgAlt" : "3up Image 3",
+            "title" : "EXTENDED PAYMENT TERMS",
+            "padding" : "0 0 0 12px"
+          }
+        ]
+      }
+    },
+    {
+      "template" : "customer-review.mjml",
+      "variables" : {
+        "review" : "“The flooring is fantastic! I installed it in the basement without the help of a contractor and it was pretty easy. I recommend this product and would definitely use it again.”",
+        "customerName" : "- COREtec Customer, Eden Prairie, MN"
+      }
+    },
+    {
+      "template" : "cta-section-2.mjml",
+      "variables" : {
+        "sections" : [
+          {
+            "imgSrc" : "https://rhythm-email.s3.us-west-1.amazonaws.com/coretec/retailer-image.png",
+            "imgAlt" : "Local Retailer",
+            "blogHeader" : "Find Your Local Retailer",
+            "link" : "https://coretecfloors.com/en-us/where-to-buy?utm_medium=sharpspring&utm_source=email&utm_campaign=sample_orders&utm_id=shop_local&utm_content=CTA_button_lets_go",
+            "buttonText" : "Let's Go"
+          }
+        ]
+      }
+    },
+    {
+      "template" : "disclaimer.mjml",
+      "variables" : {
+        "disclaimer" : "<sup>1</sup>The Shaw credit card is issued by Wells Fargo Bank, N.A., an Equal Housing Lender. Special terms apply to qualifying purchases charged with approved credit. The special terms APR will continue to apply until all qualifying purchases are paid in full. The monthly payment for this purchase will be the amount that will pay for the purchase in full in equal payments during the promotional (special terms) period. The APR for Purchases will apply to certain fees such as a late payment fee or if you use the card for other transactions. For new accounts, the APR for Purchases is 28.99%. If you are charged interest in any billing cycle, the minimum interest charge will be $1.00. This information is accurate as of 01/01/2024 and is subject to change. For current information, call us at 1-800-431-5921. Offer expires 12/31/2024. "
+      }
+    },
+    {
+      "template" : "footer.mjml",
+      "variables" : {
+        "backgroundColor" : "#005DA6",
+        "footerText" : "Follow Us On:",
+        "socialMedias" : [
+          {
+            "linkImgSrc" : "https://rhythm-email.s3.us-west-1.amazonaws.com/coretec/facebook.png",
+            "linkImgAlt" : "Facebook",
+            "link" : "https://www.facebook.com/COREtecFloors?utm_medium=sharpspring&utm_source=email&utm_campaign=sample_orders&utm_id=shop_local&utm_content=CTA_button_learn_more",
+            "iconWidth" : "24px",
+            "iconHeight" : "24px",
+            "paddings" : "0 15px 0 0"
+          },
+          {
+            "linkImgSrc" : "https://rhythm-email.s3.us-west-1.amazonaws.com/coretec/instagram.png",
+            "linkImgAlt" : "Instagram",
+            "link" : "https://www.instagram.com/coretecfloors/?utm_medium=sharpspring&utm_source=email&utm_campaign=sample_orders&utm_id=shop_local&utm_content=FB_icon",
+            "iconWidth" : "24px",
+            "iconHeight" : "24px",
+            "paddings" : "0 14px"
+          },
+          {
+            "linkImgSrc" : "https://rhythm-email.s3.us-west-1.amazonaws.com/coretec/pinterest.png",
+            "linkImgAlt" : "Pinterest",
+            "link" : "https://www.pinterest.com/coretecfloors/?utm_medium=sharpspring&utm_source=email&utm_campaign=sample_orders&utm_id=shop_local&utm_content=IG_icon",
+            "iconWidth" : "24px",
+            "iconHeight" : "24px",
+            "paddings" : "0 14px"
+          },
+          {
+            "linkImgSrc" : "https://rhythm-email.s3.us-west-1.amazonaws.com/coretec/youtube.png",
+            "linkImgAlt" : "Youtube",
+            "link" : "https://www.youtube.com/@coretecfloors2975?utm_medium=sharpspring&utm_source=email&utm_campaign=sample_orders&utm_id=shop_local&utm_content=pinterest_icon",
+            "iconWidth" : "24px",
+            "iconHeight" : "24px",
+            "paddings" : "0 14px"
+          }
+        ],
+        "footerTexts" : [
+          "Your privacy is important to us. <a href=\"https://coretecfloors.com/en-us/privacy-policy?utm_medium=sharpspring&utm_source=email&utm_campaign=sample_orders&utm_id=shop_local&utm_content=youtube_icon\" target=\"_blank\" style=\"color: #FFFFFF;\">Read our Privacy Statement.</a><br>If you wish to unsubscribe, simply <a href=\"{$unsubscribeLink}\" target=\"_blank\" style=\"color: #FFFFFF;\">click here.</a>",
+          "Shaw Industries Group, Inc.  |  616 E. Walnut Avenue  |  Dalton, GA 30722<br>© 2024 COREtec, All Rights Reserved. Shaw Industries Group inc.,<br>a Berkshire Hathaway Company"
+        ]
+      }
+    }
+	],
+	"dateModified": "2022-08-04T01:49:12.384Z"
+}

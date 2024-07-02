@@ -1,0 +1,56 @@
+<!-- START: Blog 3 -->
+<mj-raw>
+  <style>
+    /* START: head-styles */
+    @media screen and (max-width: 639px) {
+      .blog-3 > table > tbody > tr > td {
+        padding:  20px 20px 8px 20px !important;
+      }
+
+      .font-header-1 br {
+        display: none;
+      }
+      
+      .blog-3-section-text > div {
+        font-size: 13px !important;
+        line-height: 19.5px !important;
+      }
+    }
+    /* END: head-styles */
+   
+  </style>
+</mj-raw>
+<mj-wrapper padding="40px 40px 16px 40px" css-class="blog-3" background-color="{{backgroundColor}}">
+  <mj-section>
+    <mj-column width="100%">
+      {{#if imgSrc}}
+        <mj-image src="{{imgSrc}}" alt="{{imgAlt}}" padding-bottom="32px" css-class="blog-3-image" />
+      {{/if}}
+      {{#if eyebrow}}
+        <mj-text mj-class="font-eyebrow-1" padding-bottom="{{eyebrowBottomPadding}}">
+          {{eyebrow}}
+        </mj-text>
+      {{/if}}
+
+      <mj-text mj-class="font-header-1" align="{{align}}" padding="0 0 16px 0" css-class="font-header-1 blog-2-section-heading">
+        {{{sectionHeading}}}
+      </mj-text>
+
+      <mj-text padding="0 0 24px 0" font-weight="300" align="{{align}}" css-class="blog-3-section-text">
+        {{{sectionContents}}}
+      </mj-text>
+     
+    </mj-column>
+  </mj-section>
+
+  {{#if buttonLink}}
+    <mj-section padding="0 0 24px 0">
+      <mj-column width="100%">
+        <mj-button href="{{buttonLink}}" css-class="button" padding="0" align="{{align}}">
+          {{buttonText}} →
+        </mj-button>
+      </mj-column>
+    </mj-section>
+  {{/if}}
+</mj-wrapper>
+<!-- END: Blog 3 -->

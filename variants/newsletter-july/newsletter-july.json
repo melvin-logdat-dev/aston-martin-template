@@ -1,0 +1,159 @@
+{
+	"name": "newsletter-july",
+	"content": [
+		{
+      "template" : "header-view-on-web.mjml",
+      "variables" : {
+        "preHeaderText": "See popular interior design trends, flooring styles and more.",
+        "text" : "See popular interior design trends, cleaning tips and more.",
+        "linkText" : "View on Web",
+        "link" : "{$viewInBrowserLink}"
+      }
+    },
+    {
+      "template" : "header.mjml",
+      "variables" : {
+        "imgSrc" : "https://rhythm-email.s3.us-west-1.amazonaws.com/coretec/header-logo.png",
+        "imgAlt" : "Logo Alt",
+        "width" : "124px",
+        "height" : "74px",
+        "headerText" : "Get Inspired.",
+        "link" : "https://coretecfloors.com/en-us?utm_medium=sharpspring&utm_source=email&utm_campaign=enews&utm_id=turning_a_house_into_a_home&utm_content=COREtec_logo"
+      }
+    },
+    {
+      "template" : "hero-1.mjml",
+      "variables" : {
+        "imgSrc" : "https://rhythm-email.s3.us-west-1.amazonaws.com/coretec/newsletter-hero-july.png",
+        "width" : "640px",
+        "height" : "570px",
+        "imgAlt" : "Turning a House Into a Home",
+        "padding" : "0px"
+      }
+    },
+    {
+      "template" : "blog-3.mjml",
+      "variables" : {
+        "backgroundColor" : "#FFFFFF",
+        "sectionHeading" : "Design Trends For 2024",
+        "sectionContents" : "We sat down with VP of Product Design, Liz Crow, to get her insights on design trends dominating 2024. You may be surprised to learn many of these trends are about evoking a feeling, not a defined style. See which trends Liz is loving and how to bring them to life in your space.",
+        "buttonText" : "Read The Interview",
+        "buttonLink" : "https://coretecfloors.com/en-us/blog/3-design-trends-to-look-for-in-2024?utm_medium=sharpspring&utm_source=email&utm_campaign=enews&utm_id=turning_a_house_into_a_home&utm_content=read_the_interview",
+        "align" : "left"
+      }
+    },
+    {
+      "template" : "3up-icons-2.mjml",
+      "variables" : {
+        "3up-title" : "This Season’s Standouts",
+        "3up-texts" : "If our warehouses were cafeterias, these products would have a seat at the popular table. Check out some of our most talked about oak LVP options.",
+        "buttonText" : "Shop Samples",
+        "buttonLink" : "https://coretecfloors.com/en-us/products?pagesize=14&currentpage=1?utm_medium=sharpspring&utm_source=email&utm_campaign=enews&utm_id=turning_a_house_into_a_home&utm_content=shop_samples",
+        "icons" : [
+          {
+            "imgSrc" : "https://rhythm-email.s3.us-west-1.amazonaws.com/coretec/standouts-1.png",
+            "imgAlt" : "3up Image 1",
+            "text" : "Cairo <br>Oak",
+            "padding" : "0 12px 0 0"
+          },
+          {
+            "imgSrc" : "https://rhythm-email.s3.us-west-1.amazonaws.com/coretec/standouts-2.png",
+            "imgAlt" : "3up Image 2",
+            "text" : "Ravenswood <br>Oak",
+            "padding" : "0 12px 0 12px"
+          },
+          {
+            "imgSrc" : "https://rhythm-email.s3.us-west-1.amazonaws.com/coretec/standouts-3.png",
+            "imgAlt" : "3up Image 3",
+            "text" : "Calypso <br>Oak",
+            "padding" : "0 0 0 12px"
+          }
+        ]
+      }
+    },
+    {
+      "template" : "blog-3.mjml",
+      "variables" : {
+        "backgroundColor" : "#ECF9F9",
+        "imgSrc" : "https://rhythm-email.s3.us-west-1.amazonaws.com/coretec/room-makeover.gif",
+        "imgAlt" : "Get an Instant Room Makeover",
+        "eyebrowBottomPadding" : "32px",
+        "sectionHeading" : "Get An Instant Room Makeover",
+        "sectionContents" : "See a before and after of your space with our room visualizer tool. Simply upload a photo of a room in your home to try on different flooring and paint color combinations. Compare designs, save your favorites and share with friends!",
+        "buttonText" : "Try The Tool",
+        "buttonLink" : "https://coretecfloors.com/en-us/?roomvoStartVisualizer=true&utm_medium=sharpspring&utm_source=email&utm_campaign=enews&utm_id=turning_a_house_into_a_home&utm_content=try_the_tool",
+        "align" : "left"
+      }
+    },
+    {
+      "template" : "blog-3.mjml",
+      "variables" : {
+        "backgroundColor" : "#FFFFFF",
+        "imgSrc" : "https://rhythm-email.s3.us-west-1.amazonaws.com/coretec/newsletter-blog-4.png",
+        "imgAlt" : "Spruce Up Your Floors for Spring",
+        "sectionHeading" : "LVP For Style And Sustainable Living",
+        "sectionContents" : "Did you know your choice of flooring can impact your home’s health? Our luxury vinyl plank and tile flooring is developed with you and your family in mind. Learn how.",
+        "buttonText" : "Read The Blog",
+        "buttonLink" : "https://coretecfloors.com/en-us/blog/luxury-vinyl-plank-flooring-for-stylish-and-sustainable-living?utm_medium=sharpspring&utm_source=email&utm_campaign=enews&utm_id=turning_a_house_into_a_home&utm_content=read_the_blog",
+        "align" : "left"
+      }
+    },
+    {
+      "template" : "blog-3.mjml",
+      "variables" : {
+        "backgroundColor" : "#FFFFFF",
+        "sectionHeading" : "Get Hands-On Design Expertise",
+        "sectionContents" : "Schedule a one-on-one with a COREtec design services expert. Let’s get this project started.",
+        "buttonText" : "Book Free Appointment",
+        "buttonLink" : "https://coretecfloors.com/en-us/design-services?utm_medium=sharpspring&utm_source=email&utm_campaign=enews&utm_id=turning_a_house_into_a_home&utm_content=see_more",
+        "align" : "left"
+      }
+    },
+    {
+      "template" : "footer.mjml",
+      "variables" : {
+        "backgroundColor" : "#005DA6",
+        "footerText" : "Follow Us On:",
+        "socialMedias" : [
+          {
+            "linkImgSrc" : "https://rhythm-email.s3.us-west-1.amazonaws.com/coretec/facebook.png",
+            "linkImgAlt" : "Facebook",
+            "link" : "https://www.facebook.com/COREtecFloors?utm_medium=sharpspring&utm_source=email&utm_campaign=enews&utm_id=turning_a_house_into_a_home&utm_content=FB_icon",
+            "iconWidth" : "24px",
+            "iconHeight" : "24px",
+            "paddings" : "0 15px 0 0"
+          },
+          {
+            "linkImgSrc" : "https://rhythm-email.s3.us-west-1.amazonaws.com/coretec/instagram.png",
+            "linkImgAlt" : "Instagram",
+            "link" : "https://www.instagram.com/coretecfloors/?utm_medium=sharpspring&utm_source=email&utm_campaign=enews&utm_id=turning_a_house_into_a_home&utm_content=IG_icon",
+            "iconWidth" : "24px",
+            "iconHeight" : "24px",
+            "paddings" : "0 14px"
+          },
+          {
+            "linkImgSrc" : "https://rhythm-email.s3.us-west-1.amazonaws.com/coretec/pinterest.png",
+            "linkImgAlt" : "Pinterest",
+            "link" : "https://www.pinterest.com/coretecfloors/?utm_medium=sharpspring&utm_source=email&utm_campaign=enews&utm_id=turning_a_house_into_a_home&utm_content=pinterest_icon",
+            "iconWidth" : "24px",
+            "iconHeight" : "24px",
+            "paddings" : "0 14px"
+          },
+          {
+            "linkImgSrc" : "https://rhythm-email.s3.us-west-1.amazonaws.com/coretec/youtube.png",
+            "linkImgAlt" : "Youtube",
+            "link" : "https://www.youtube.com/@coretecfloors2975?utm_medium=sharpspring&utm_source=email&utm_campaign=enews&utm_id=turning_a_house_into_a_home&utm_content=youtube_icon",
+            "iconWidth" : "24px",
+            "iconHeight" : "24px",
+            "paddings" : "0 14px"
+          }
+        ],
+        "footerTexts" : [
+          "Your privacy is important to us. <a href=\"https://coretecfloors.com/en-us/privacy-policy?utm_medium=sharpspring&utm_source=email&utm_campaign=enews&utm_id=turning_a_house_into_a_home&utm_content=footer\" target=\"_blank\" style=\"color: #FFFFFF;\">Read our Privacy Statement.</a><br>If you wish to unsubscribe, simply <a href=\"{$unsubscribeLink}\" target=\"_blank\" style=\"color: #FFFFFF;\">click here.</a>",
+          "Shaw Industries Group, Inc.  |  616 E. Walnut Avenue  |  Dalton, GA 30722<br>© 2024 COREtec, All Rights Reserved. Shaw Industries Group inc.,<br>a Berkshire Hathaway Company"
+        ]
+      }
+    }
+	],
+	"dateModified": "2022-08-04T01:49:12.384Z"
+}

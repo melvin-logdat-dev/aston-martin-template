@@ -1,0 +1,199 @@
+<!-- START: Media Section -->
+<mj-raw>
+  <style>
+    /* START: head-styles */
+    @media screen and (max-width: 639px) {
+      .media-sections.sections> table > tbody > tr > td {
+          padding: 0px 20px 8px !important;
+      }
+
+      .media-heading div {
+        font-size: 28px !important;
+        line-height: 35px !important;
+      }
+
+      .media-heading td {
+        padding-bottom: 20px !important;
+      }
+
+      .media-content div {
+        font-size: 14px !important;
+      }
+
+      .media-content div br {
+        display: none !important;
+      }
+
+      .textMedia {
+        font-size: 14px !important;
+        line-height: 16px !important;
+      }
+
+      .imageIcon {
+        height: 20px !important;
+        width: 20px !important;
+      }
+    }
+
+    @media screen and (max-width: 345px) {
+      .textMedia {
+        font-size: 12px !important;
+      }
+      .imageIcon {
+        height: 18px !important;
+        width: 18px !important;
+      }
+    }
+
+    .media--image {
+      padding-bottom: 10px !important;
+    }
+    /* END: head-styles */
+  </style>
+</mj-raw>
+<mj-wrapper padding="0px 40px 20px" css-class="sections media-sections">
+  <mj-section
+    padding="30px 20px 30px"
+    css-class="media-heading"
+    background-color="{{BackgroundColor}}"
+  >
+    <mj-text
+      mj-class="font-header-1"
+      align="center"
+      padding="0 0 16px 0"
+      css-class="font-header-1 blog-2-section-heading"
+    >
+      {{{mediaHeader}}}
+    </mj-text>
+  </mj-section>
+  <mj-section
+    padding="0px 20px 10px"
+    css-class="media-content"
+    background-color="{{BackgroundColor}}"
+  >
+    <mj-text
+      padding="20px 0 24px 0"
+      font-weight="300"
+      align="center"
+      css-class="blog-3-section-text"
+    >
+      {{{mediaContent}}}
+    </mj-text>
+  </mj-section>
+  <mj-section
+    css-class="media-links"
+    padding="10px 20px 30px"
+    background-color="{{BackgroundColor}}"
+  >
+    <mj-column width="313px" css-class="media-column">
+      <mj-group>
+        <mj-column width="50%">
+          <mj-raw>
+            <tr>
+              <td align="center" style="vertical-align: middle">
+                <table
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  role="presentation"
+                  style="border-collapse: collapse; line-height: 100%"
+                >
+                  <tbody>
+                    <tr>
+                      <td style="padding-right: 8px; vertical-align: middle">
+                        <img
+                          src="{{MediaIcon1}}"
+                          alt="instagram logo"
+                          style="height: 24px; width: 24px; object-fit: contain"
+                          class="imageIcon"
+                        />
+                      </td>
+                      <td style="vertical-align: middle">
+                        <a
+                          href="{{MediaLink1}}"
+                          class="textMedia"
+                          style="
+                            font-family: 'Inter', Helvetica, Arial, sans-serif;
+                            margin: 0;
+                            padding: 0;
+                            text-decoration: none;
+                            color: #2d2a26;
+                            font-size: 16px;
+                            line-height: 26px;
+                            letter-spacing: 0.5px;
+                            font-weight: 700;
+                          "
+                          target="_blank"
+                        >
+                          {{MediaLinkName1}}
+                        </a>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          </mj-raw>
+        </mj-column>
+        <mj-column width="50%">
+          <mj-raw>
+            <tr>
+              <td align="center" style="vertical-align: middle">
+                <table
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  role="presentation"
+                  style="border-collapse: collapse; line-height: 100%"
+                >
+                  <tbody>
+                    <tr>
+                      <td style="padding-right: 0px; vertical-align: middle">
+                        <img
+                          src="{{MediaIcon2}}"
+                          alt="instagram logo"
+                          style="height: 22px; width: 22px; object-fit: contain"
+                          class="imageIcon"
+                        />
+                      </td>
+                      <td style="vertical-align: middle">
+                        <a
+                          href="{{MediaLink2}}"
+                          class="textMedia"
+                          style="
+                            font-family: 'Inter', Helvetica, Arial, sans-serif;
+                            margin: 0;
+                            padding: 0;
+                            text-decoration: none;
+                            color: #2d2a26;
+                            font-size: 16px;
+                            line-height: 26px;
+                            letter-spacing: 0.5px;
+                            font-weight: 700;
+                          "
+                          target="_blank"
+                        >
+                          {{MediaLinkName2}}
+                        </a>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          </mj-raw>
+        </mj-column>
+      </mj-group>
+    </mj-column>
+  </mj-section>
+  <mj-section padding="0" css-class="media-image">
+    <mj-column width="100%">
+      <mj-image
+        src="{{mediaImg}}"
+        alt="{{mediaImggAlt}}"
+        padding-bottom="32px"
+        css-class="blog-3-image media--image"
+      />
+    </mj-column>
+  </mj-section>
+</mj-wrapper>

@@ -1,0 +1,98 @@
+<!-- START: Blog 2 -->
+<mj-raw>
+  <style>
+    /* START: head-styles */
+    @media screen and (max-width: 639px) {
+      .blogs-2 > table > tbody > tr > td {
+        padding:  20px 0 0 0 !important;
+      }
+      .blog-2-image > table,
+      .blog-2-image > table > tbody > tr > td,
+      .blog-2-image > table > tbody > tr > img { 
+        width: 100% !important;
+      }
+
+      .blog-2-image > table > tbody > tr > td {
+        padding-bottom: 24px !important;
+      }
+
+      .mobile-blog-2-text-padding > table > tbody > tr > td {
+        padding: 0 0 20px 0 !important;
+      }
+
+      .blog-2-section-heading {
+        padding: 0 0 32px 0 !important;
+      }
+
+      .blog-2-header > div {
+        font-size: 24px !important;
+        line-height: 28.8px !important;
+      }
+      
+      .blog-2-main-texts {
+        padding: 0 0 24px 0 !important;
+      }
+    }
+    /* END: head-styles */
+  </style>
+</mj-raw>
+<mj-wrapper padding="40px 0 24px 0" css-class="sections">
+  <mj-section>
+    <mj-column width="100%">
+      <mj-text align="center" mj-class="font-header-1" padding="0 40px 24px 40px" css-class="blog-2-section-heading">
+        {{sectionHeading}}
+      </mj-text>
+
+      {{#if sectionContents}}
+        <mj-text align="center" padding="0 40px 24px 40px" font-weight="300"  css-class="blog-2-main-texts">
+          {{{sectionContents}}}
+        </mj-text>
+      {{/if}}
+    </mj-column>
+  </mj-section>
+  {{#each blogs}} 
+    <mj-section padding="24px 40px" css-class="blogs-2">
+        <mj-column width="260px" css-class="mobile-blog-2-image-padding">
+          <mj-image src="{{imgSrc}}" alt="{{imgAlt}}" css-class="blog-2-image" />
+        </mj-column>
+        <mj-column width="281px" padding="0 0 0 24px" css-class="mobile-blog-2-text-padding">
+          <mj-text mj-class="font-header-3" css-class="font-header-1 blog-2-header" padding-bottom="16px">
+            {{blogHeader}}
+          </mj-text>
+          <mj-text font-weight="300">
+            {{blogContent}}
+          </mj-text>
+          {{#if link}}
+          <mj-raw>
+            <tr>
+              <td style="padding-top: 13px;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
+                  <tbody>
+                    <tr>
+                      <td align="center" bgcolor="#ffffff" role="presentation" style="cursor:auto;mso-padding-alt: 0px 0px 8px 0px;background:#ffffff;text-decoration: none;color: #2D2A26;text-transform: uppercase;font-size: 16px;line-height: 26px;letter-spacing: 0.5px;font-weight: 700;border-bottom: 2px solid #005DA6;padding-bottom: 8px;" valign="middle">
+                        <a href="{{link}}" style="display:inline-block;background:#ffffff;font-family:'Inter', Helvetica, Arial, 'sans-serif';margin:0;padding: 0;mso-padding-alt:0px;text-decoration: none;color: #2D2A26;text-transform: uppercase;font-size: 16px;line-height: 26px;letter-spacing: 0.5px;font-weight: 700;" target="_blank">
+                          {{linkText}}
+                        </a>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          </mj-raw>
+          {{/if}}
+        </mj-column>
+    </mj-section>
+  {{/each}}
+
+  {{#if ctaLink}}
+    <mj-section padding="24px 0">
+      <mj-column width="100%">
+        <mj-button href="{{ctaLink}}" css-class="button" padding="0">
+          {{ctaText}} →
+        </mj-button>
+      </mj-column>
+    </mj-section>
+  {{/if}}
+</mj-wrapper>
+<!-- END: Blog 2 -->

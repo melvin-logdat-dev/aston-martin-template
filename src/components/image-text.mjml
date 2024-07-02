@@ -1,0 +1,35 @@
+<!-- START: image text cta -->
+<mj-raw>
+  <style>
+    /* START: head-styles */
+    @media screen and (max-width: 639px) {
+      .blog-image-text {
+        padding:  44px 0 0 0 !important;
+      }
+    }
+    /* END: head-styles */
+  </style>
+</mj-raw>
+<mj-wrapper padding="40px" css-class="sections">
+  <mj-section background-color="#FFFFFF" padding="0">
+    <mj-column>
+      <mj-text mj-class="font-header-1" align="center" font-style="normal" padding="0px 46.5px 16px 46.5px" css-class="font-header-1 image-text-cta-header">
+        {{headerText}}
+      </mj-text>
+      <mj-text align="center" font-weight="300" css-class="body-text">
+        {{{description}}}
+      </mj-text>
+    </mj-column>
+  </mj-section>
+  <mj-section>
+    <mj-column>
+      <mj-image src="{{imgSrc}}" alt="{{imgAlt}}" padding="{{imagePadding}}" css-class="blog-image-text" />
+      {{#if link}}
+        <mj-button href="{{link}}">
+          {{buttonText}} →
+        </mj-button>
+      {{/if}}
+    </mj-column>
+  </mj-section>
+</mj-wrapper>
+<!-- END: image text cta -->

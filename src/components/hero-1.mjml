@@ -1,0 +1,25 @@
+<!-- START: Hero Image 1 -->
+<mj-raw>
+  <style>
+    {{#if imgSrcMobile}}
+    /* START: head-styles */
+    @media screen and (max-width: 639px) {
+      .hero-image img {
+        display: none !important;
+      }
+      .hero-image {
+        background-image: url('{{imgSrcMobile}}');
+        background-size: 100%;
+        padding-top: {{mobileRatio}} !important;
+      }
+    }
+    /* END: head-styles */
+    {{/if}}
+  </style>
+</mj-raw>
+<mj-section background-color="#FFFFFF" padding="0">
+  <mj-column padding="{{padding}}" css-class="hero">
+    <mj-image src="{{imgSrc}}" alt="{{imgAlt}}" css-class="hero-image" href="{{link}}" />
+  </mj-column>
+</mj-section>
+<!-- END: Hero Image 1 -->

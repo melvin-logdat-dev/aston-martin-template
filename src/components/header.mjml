@@ -1,0 +1,14 @@
+<!-- START: Header type 1 -->
+<mj-section background-color="#FFFFFF" padding="16px 40px" css-class="email-header">
+  <mj-group>
+    <mj-column width="50%">
+      <mj-image src="{{imgSrc}}" alt="{{imgAlt}}" width="{{width}}" height="{{height}}" href="{{link}}" align="left" css-class="header-image"/>
+    </mj-column>
+    <mj-column width="50%" vertical-align="bottom">
+      <mj-text mj-class="font-header" color="#2D2A26" align="right" css-class="font-header" font-style="italic">
+        {{headerText}}
+      </mj-text>
+    </mj-column>
+  </mj-group>
+</mj-section>
+<!-- END: Header type 1 -->

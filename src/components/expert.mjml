@@ -1,0 +1,93 @@
+<!-- START: Expert -->
+<mj-raw>
+  <style>
+    /* START: head-styles */
+    @media screen and (max-width: 639px) {
+      .expert-col1 {
+        width: 30.45% !important;
+      }
+
+      .expert-col2 {
+        width: 69.55% !important;
+      }
+
+      .expert-link {
+        font-size: 9px !important;
+        letter-spacing: 0.1em!important;
+      }
+
+      .expert > table > tbody > tr > td {
+        padding: 20px !important;
+      }
+
+
+      .expert-content > div {
+        font-size: 12px !important;
+      }
+
+      .expert-content {
+        padding-bottom: 3px!important;
+      }
+
+      /**{{#if mobileSrc}}
+        .expert-image img {
+          display: none !important;
+        }
+        .expert-image {
+          background-image: url('{{mobileSrc}}');
+          background-size: 100%;
+          padding-top: {{mobileRatio}} !important;
+        }
+      {{/if}}**/
+
+      .expert-image img {
+        height: 190px !important;
+        object-fit: cover !important;
+      }
+    }
+
+     @media screen and (max-width: 340px) {
+      .expert-image img {
+        height: 170px !important;
+      }
+     }
+    /* END: head-styles */
+  </style>
+</mj-raw>
+<mj-wrapper padding="24px 40px 24px 40px" css-class="expert" background-color="{{backgroundColor}}">
+  <mj-section>
+    <mj-group>
+      <mj-column width="31.8%" css-class="expert-col1">
+        <mj-image src="{{imgSrc}}" alt="{{imgAlt}}" css-class="expert-image" />
+      </mj-column>
+      <mj-column width="68.2%" padding-left="24px" css-class="expert-col2">
+        <mj-text mj-class="font-header-3" padding="0 2px 16px 0" color="{{color}}" css-class="font-header-2 blog-2-section-heading">
+          {{{sectionHeading}}}
+        </mj-text>
+
+        <mj-text color="{{color}}" font-size="13px" line-height="19.5px" padding="0 0 16px 0" font-weight="300" css-class="expert-content">
+          {{{sectionContents}}}
+        </mj-text>
+
+        <mj-raw>
+          <tr>
+            <td>
+              <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
+                <tbody>
+                  <tr>
+                    <td align="center" role="presentation" style="cursor:auto;mso-padding-alt: 0px 0px 2px 0px;text-decoration: none;color: {{color}};text-transform: uppercase;font-size: 16px;line-height: 26px;letter-spacing: 0.5px;font-weight: 700;border-bottom: 2px solid {{borderColor}};padding-bottom: 2px;" valign="middle">
+                      <a href="{{link}}" style="display:inline-block;font-family:'Inter', Helvetica, Arial, 'sans-serif';margin:0;padding: 0;mso-padding-alt:0px;text-decoration: none;color: {{color}};text-transform: uppercase;font-size: 16px;line-height: 26px;letter-spacing: 0.5px;font-weight: 700;" class="expert-link" target="_blank">
+                        {{linkText}}
+                      </a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+        </mj-raw>
+      </mj-column>
+    </mj-group>
+  </mj-section>
+</mj-wrapper>
+<!-- END: Expert -->

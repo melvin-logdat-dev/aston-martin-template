@@ -1,0 +1,28 @@
+<!-- START: Blog 1 -->
+<mj-wrapper padding="30px" css-class="sections">
+  {{#each blogs}} 
+    <mj-section padding="27px 0 0" css-class="blogs">
+      <mj-group>
+        <mj-column width="178px" padding-left="19px" css-class="mobile-blog-image-padding">
+          <mj-image src="{{imgSrc}}" alt="{{imgAlt}}" />
+        </mj-column>
+        <mj-column width="400px" padding="0 0 0 72px" css-class="mobile-blog-text-padding">
+          <mj-text mj-class="font-header-1" css-class="font-header-1 blog-header" padding-bottom="16px">
+            {{blogHeader}}
+          </mj-text>
+          <mj-button href="{{link}}" css-class="button" align="left" padding="0">
+            {{buttonText}} →
+          </mj-button>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    {{#if divider}}
+    <mj-section css-class="blog-dividers" padding-top="33px">
+      <mj-column>
+        <mj-divider border-width="1px" border-color="#636466" />
+      </mj-column>
+    </mj-section>
+    {{/if}}
+  {{/each}}
+</mj-wrapper>
+<!-- END: Blog 1 -->

@@ -1,0 +1,170 @@
+{
+	"name": "visualize",
+	"content": [
+		{
+      "template" : "header-view-on-web.mjml",
+      "variables" : {
+        "text" : "Oh wait, you can. Try our room visualizer tool.",
+        "linkText" : "View on Web",
+        "link" : "{$viewInBrowserLink}"
+      }
+    },
+    {
+      "template" : "header.mjml",
+      "variables" : {
+        "imgSrc" : "https://rhythm-email.s3.us-west-1.amazonaws.com/coretec/header-logo.png",
+        "imgAlt" : "Logo Alt",
+        "width" : "124px",
+        "height" : "74px",
+        "headerText" : "Visualize.",
+        "link" : "https://coretecfloors.com/en-us?utm_medium=sharpspring&utm_source=email&utm_campaign=sample_orders&utm_id=visualize&utm_content=COREtec_logo"
+      }
+    },
+    {
+      "template" : "hero-2.mjml",
+      "variables" : {
+        "imgSrc" : "https://rhythm-email.s3.us-west-1.amazonaws.com/coretec/visualizer-image.gif",
+        "imgAlt" : "See COREtec In Your Space",
+        "padding" : "0px",
+        "link" : "https://coretecfloors.com/en-us/?roomvoStartVisualizer=true&utm_medium=sharpspring&utm_source=email&utm_campaign=sample_orders&utm_id=visualize&utm_content=CTA_button_get_started",
+        "backgroundColor" : "#E4F4F4",
+        "heroTitle" : "See COREtec In <br>Your Space",
+        "buttonText" : "Get Started",
+        "buttonLink" : "https://coretecfloors.com/en-us/?roomvoStartVisualizer=true&utm_medium=sharpspring&utm_source=email&utm_campaign=sample_orders&utm_id=visualize&utm_content=CTA_button_get_started"
+      }
+    },
+    {
+      "template" : "3up-icons.mjml",
+      "variables" : {
+        "3up-title" : "How Our Room <br>Visualizer Works",
+        "icons" : [
+          {
+            "imgSrc" : "https://rhythm-email.s3.us-west-1.amazonaws.com/coretec/3up-image-1.png",
+            "imgAlt" : "3up Image 1",
+            "title" : "UPLOAD",
+            "text" : "Upload a photo of a room in your home.",
+            "padding" : "0 12px 0 0"
+          },
+          {
+            "imgSrc" : "https://rhythm-email.s3.us-west-1.amazonaws.com/coretec/3up-image-2.png",
+            "imgAlt" : "3up Image 2",
+            "title" : "MIX & MATCH",
+            "text" : "Swap flooring, try paint colors and slide to compare.",
+            "padding" : "0 12px 0 12px"
+          },
+          {
+            "imgSrc" : "https://rhythm-email.s3.us-west-1.amazonaws.com/coretec/3up-image-3.png",
+            "imgAlt" : "3up Image 3",
+            "title" : "SAVE & SHARE",
+            "text" : "Save your favorites to find your perfect match.",
+            "padding" : "0 0 0 12px"
+          }
+        ]
+      }
+    },
+    {
+      "template" : "customer-review.mjml",
+      "variables" : {
+        "review" : "“This flooring is gorgeous! We put this throughout the home and it looks amazing!”",
+        "customerName" : "- COREtec Customer"
+      }
+    },
+    {
+      "template" : "image-gallery.mjml",
+      "variables" : {
+        "title" : "Get Inspired",
+        "image1" : "https://rhythm-email.s3.us-west-1.amazonaws.com/coretec/image-gallery-1.png",
+        "image1Alt" : "Image 1",
+        
+        "image2" : "https://rhythm-email.s3.us-west-1.amazonaws.com/coretec/image-gallery-2.png",
+        "image2Alt" : "Image 2",
+
+        "image3" : "https://rhythm-email.s3.us-west-1.amazonaws.com/coretec/image-gallery-3.png",
+        "image3Alt" : "Image 3",
+
+        "image4" : "https://rhythm-email.s3.us-west-1.amazonaws.com/coretec/image-gallery-4.png",
+        "image4Alt" : "Image 4",
+        "buttonText" : "View Design Services",
+        "buttonLink" : "https://coretecfloors.com/en-us/design-services?utm_medium=sharpspring&utm_source=email&utm_campaign=sample_orders&utm_id=visualize&utm_content=CTA_button_view_design_services"
+      }
+    },
+    {
+      "template" : "cta-section-2.mjml",
+      "variables" : {
+        "sections" : [
+          {
+            "imgSrc" : "https://rhythm-email.s3.us-west-1.amazonaws.com/coretec/retailer-image.png",
+            "imgAlt" : "Local Retailer",
+            "blogHeader" : "Find Your Local Retailer",
+            "link" : "https://coretecfloors.com/en-us/where-to-buy?utm_medium=sharpspring&utm_source=email&utm_campaign=sample_orders&utm_id=visualize&utm_content=CTA_button_lets_go",
+            "buttonText" : "Let's Go",
+            "divider" : true
+          },
+          {
+            "imgSrc" : "https://rhythm-email.s3.us-west-1.amazonaws.com/coretec/financing.png",
+            "imgAlt" : "Flexible Financing Solutions Available",
+            "blogHeader" : "Flexible Financing Solutions Available",
+            "blogTexts": "✔ Competitive Interest Rates<br>✔ Online Bill Pay<br>✔ Extended Payment Terms",
+            "link" : "https://coretecfloors.com/en-us/financing?utm_medium=sharpspring&utm_source=email&utm_campaign=sample_orders&utm_id=visualize&utm_content=CTA_button_learn_more",
+            "buttonText" : "Learn More"
+          }
+        ]
+      }
+    },
+    {
+      "template" : "contact-us-section.mjml",
+      "variables" : {
+        "contactUsTitle" : "Need To Chat?<br> We’re Here For You",
+        "contactUsTexts" : "Contact us with any order<br> issues or questions",
+        "contactNumber" : "1-844-743-7429",
+        "contactTime" : "Mon to Fri | 8am-6pm"
+      }
+    },
+    {
+      "template" : "footer.mjml",
+      "variables" : {
+        "backgroundColor" : "#005DA6",
+        "footerText" : "Follow Us On:",
+        "socialMedias" : [
+          {
+            "linkImgSrc" : "https://rhythm-email.s3.us-west-1.amazonaws.com/coretec/facebook.png",
+            "linkImgAlt" : "Facebook",
+            "link" : "https://www.facebook.com/COREtecFloors?utm_medium=sharpspring&utm_source=email&utm_campaign=sample_orders&utm_id=visualize&utm_content=FB_icon",
+            "iconWidth" : "24px",
+            "iconHeight" : "24px",
+            "paddings" : "0 15px 0 0"
+          },
+          {
+            "linkImgSrc" : "https://rhythm-email.s3.us-west-1.amazonaws.com/coretec/instagram.png",
+            "linkImgAlt" : "Instagram",
+            "link" : "https://www.instagram.com/coretecfloors/?utm_medium=sharpspring&utm_source=email&utm_campaign=sample_orders&utm_id=visualize&utm_content=IG_icon",
+            "iconWidth" : "24px",
+            "iconHeight" : "24px",
+            "paddings" : "0 14px"
+          },
+          {
+            "linkImgSrc" : "https://rhythm-email.s3.us-west-1.amazonaws.com/coretec/pinterest.png",
+            "linkImgAlt" : "Pinterest",
+            "link" : "https://www.pinterest.com/coretecfloors/?utm_medium=sharpspring&utm_source=email&utm_campaign=sample_orders&utm_id=visualize&utm_content=pinterest_icon",
+            "iconWidth" : "24px",
+            "iconHeight" : "24px",
+            "paddings" : "0 14px"
+          },
+          {
+            "linkImgSrc" : "https://rhythm-email.s3.us-west-1.amazonaws.com/coretec/youtube.png",
+            "linkImgAlt" : "Youtube",
+            "link" : "https://www.youtube.com/@coretecfloors2975?utm_medium=sharpspring&utm_source=email&utm_campaign=sample_orders&utm_id=visualize&utm_content=youtube_icon",
+            "iconWidth" : "24px",
+            "iconHeight" : "24px",
+            "paddings" : "0 14px"
+          }
+        ],
+        "footerTexts" : [
+          "Your privacy is important to us. <a href=\"https://coretecfloors.com/en-us/privacy-policy?utm_medium=sharpspring&utm_source=email&utm_campaign=sample_orders&utm_id=visualize&utm_content=footer\" target=\"_blank\" style=\"color: #FFFFFF;\">Read our Privacy Statement.</a><br>If you wish to unsubscribe, simply <a href=\"{$unsubscribeLink}\" target=\"_blank\" style=\"color: #FFFFFF;\">click here.</a>",
+          "Shaw Industries Group, Inc.  |  616 E. Walnut Avenue  |  Dalton, GA 30722<br>© 2024 COREtec, All Rights Reserved. Shaw Industries Group inc.,<br>a Berkshire Hathaway Company"
+        ]
+      }
+    }
+	],
+	"dateModified": "2022-08-04T01:49:12.384Z"
+}

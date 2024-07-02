@@ -1,0 +1,28 @@
+<!-- START: Footer 1 -->
+<mj-section background-color="{{backgroundColor}}" padding="40px 20px 24px" css-class="footer">
+  <mj-column padding="0" width="100%" css-class="pardot-repeatable-elements">
+    <mj-text mj-class="font-header-2" color="#FFFFFF" css-class="font-header-2" align="center">
+      {{footerText}}
+    </mj-text>
+
+    <mj-social font-size="15px" mode="horizontal" padding="0" padding-top="28px" padding-bottom="46px">
+      {{#each socialMedias}} 
+        <mj-social-element icon-size="{{this.iconWidth}}" icon-height="{{this.iconHeight}}" padding="{{this.paddings}}" src="{{linkImgSrc}}" alt="{{linkImgAlt}}" href="{{link}}" css-class="footer-social"  mj-class="footer-social" />
+      {{/each}}
+    </mj-social>
+
+    <mj-raw>
+      <tr>
+        <td style="font-size:0px;padding:0 60px 0px 60px;word-break:break-word;" class="footer-text-padding">
+          {{#each footerTexts}} 
+            <div class="footer-text" style="font-family:'Inter', Helvetica, Arial, 'sans-serif';font-size:12px;font-weight:300;line-height:18px;letter-spacing: 0.5px;text-align:center;color:white;padding-bottom:22px;">
+              {{{this}}} 
+            </div>
+          {{/each}}
+        </td>
+      </tr>
+    </mj-raw>
+    </mj-text>
+  </mj-column>
+</mj-section>
+<!-- END: Footer 1 -->

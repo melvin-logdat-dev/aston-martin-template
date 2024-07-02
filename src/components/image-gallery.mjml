@@ -1,0 +1,59 @@
+<!-- START: Image Gallery  -->
+<mj-raw>
+  <style>
+    /* START: head-styles */
+    @media screen and (max-width: 639px) {
+      .image-gallery-title-section > table > tbody > tr > td {
+          padding: 40px 20px !important;
+      }
+
+      .image-gallery-gallery-sec > table > tbody > tr > td {
+          padding: 0 20px !important;
+      }
+
+      .image-column-1 > table > tbody > tr > td {
+          padding-right: 4px !important;
+      }
+
+      .image-column-3 > table > tbody > tr > td {
+          padding-left: 4px !important;
+      }
+
+      .image-column-2 > table > tbody > tr > td {
+          padding-left: 4px !important;
+      }
+
+      .image-gallery-image {
+          padding-bottom: 10px !important;
+      }
+    }
+    /* END: head-styles */
+  </style>
+</mj-raw>
+<mj-wrapper padding="0px" css-class="image-gallery">
+  <mj-section padding="40px" css-class="image-gallery-title-section">
+    <mj-text mj-class="font-header-1" css-class="font-header-1" align="center">
+      {{{title}}}
+    </mj-text>
+  </mj-section>
+  <mj-section padding="0 40px" css-class="image-gallery-gallery-sec">
+    <mj-group>
+      <mj-column width="53.3%" padding-right="7px" css-class="image-column-1">
+        <mj-image src="{{image1}}" alt="{{image1alt}}" padding-bottom="16px" css-class="image-gallery-image"/>
+        <mj-image src="{{image2}}" alt="{{image2alt}}" css-class="image-gallery-image" />
+      </mj-column>
+      <mj-column width="46.7%" padding-left="7px" css-class="image-column-2">
+        <mj-image src="{{image3}}" alt="{{image3alt}}" padding-bottom="16px" css-class="image-gallery-image" />
+        <mj-image src="{{image4}}" alt="{{image4alt}}" css-class="image-gallery-image" />
+      </mj-column>
+    </mj-group>
+  </mj-section>
+  <mj-section padding="48px 0 40px" css-class="image-gallery-button-sec">
+    <mj-column padding="{{padding}}">
+      <mj-button href="{{buttonLink}}" padding="0">
+        {{buttonText}} →
+      </mj-button>
+    </mj-column>
+  </mj-section>
+</mj-wrapper>
+<!-- END: Image Gallery -->

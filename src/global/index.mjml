@@ -1,0 +1,211 @@
+<mjml>
+  <mj-head>
+    <mj-breakpoint width="640px" />
+    <mj-font name="Inter"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" />
+    <mj-font name="Lora"
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" />
+    <mj-attributes>
+      <!-- Global overrides -->
+      <mj-all font-family="'Inter', Helvetica, Arial, 'sans-serif'" />
+
+      <mj-button 
+        font-family="'Inter', Helvetica, Arial, 'sans-serif'" 
+        padding="13px 24px" 
+        background-color="#ffffff"
+        font-size="16px"
+        line-height="24px"
+        font-weight="500"
+        border="1px solid #2D2A26"
+        border-radius="100px"
+        color="#2D2A26" />
+
+      <!-- Fonts -->
+      <mj-class 
+        name="font-header" 
+        padding="0"
+        font-family="Lora, Georgia, Arial, 'sans-serif'"
+        font-size="24px"
+        line-height="28px"
+        font-weight="400" 
+      />
+
+      <mj-class 
+        name="font-header-1" 
+        padding="0"
+        font-family="Lora, Georgia, Arial, 'sans-serif'"
+        font-size="36px"
+        line-height="43.2px"
+        font-weight="400" 
+        letter-spacing="0.5px"
+      />
+
+      <mj-class 
+        name="font-header-2" 
+        padding="0"
+        font-family="Lora, Georgia, Arial, 'sans-serif'"
+        font-size="24px"
+        line-height="28px"
+        font-weight="400" 
+        letter-spacing="0.5"
+      />
+
+      <mj-class 
+        name="font-header-3" 
+        padding="0"
+        font-family="Lora, Georgia, Arial, 'sans-serif'"
+        font-size="24px"
+        line-height="28.8px"
+        font-weight="400" 
+        letter-spacing="0.5"
+      />
+
+      <mj-class 
+        name="font-header-4" 
+        padding="0"
+        font-family="Lora, Georgia, Arial, 'sans-serif'"
+        font-size="48px"
+        line-height="57.6px"
+        font-weight="400" 
+        letter-spacing="0.5"
+      />
+
+      <mj-class 
+        name="font-eyebrow-1" 
+        padding="0"
+        font-family="'Inter', Helvetica, Arial, 'sans-serif'"
+        font-size="16px"
+        line-height="24px"
+        font-weight="700" 
+        letter-spacing="0.1em"
+      />
+
+      <mj-class 
+        name="font-bold" 
+        font-weight="700" 
+      />
+
+      <mj-class name="link" padding="0" border="0" />
+
+      <!-- Text colors -->
+      <mj-class name="text-white" color="white" />
+      <mj-class name="text-black" color="#2D2A26" />
+
+      <!-- Value reset -->
+      <mj-image padding="0" />
+      <mj-column padding="0" />
+      <mj-section padding="0" />
+      <mj-text padding="0" color="#2D2A26" font-size="16px" line-height="24px" letter-spacing="0.5px"/>
+      <mj-divider padding="0" />
+
+      <!-- Value reset -->
+      <mj-class name="button-no-border" border="1px solid white" />
+    </mj-attributes>
+    <mj-style>
+      body {
+        max-width: 640px !important;
+        margin: 0 auto !important;
+      }
+
+      img {
+        padding: 0 !important;
+        max-width: 100%;
+      }
+
+      .buttons a {
+        font-family: 'Inter', 'Helvetica', Helvetica, Arial, 'sans-serif' !important;
+      }
+
+      h1, h2, h3, h4, h5 {
+        font-family: "Lora", Georgia, Helvetica, Arial, 'sans-serif' !important;
+      }
+
+      p {
+        margin: 0 !important;
+      }
+
+      div > a {
+        text-decoration: underline;
+      }
+
+      strong,
+      b {
+        font-weight: bold !important;
+      }
+
+      @media screen and (max-width: 639px) {
+        body {
+          max-width: 375px !important;
+          margin: 0 auto !important;
+        }
+
+        .email-header > table > tbody > tr > td {
+            padding: 12px 20px !important;
+        }
+
+        /* mobile typography overrides */
+        .body-text > div {
+          font-size: 13px !important;
+          line-height: 19.5px !important;
+        }
+        .font-header > div {
+          font-size: 20px!important;
+          line-height: 24px!important;
+        }
+        .font-header-1 > div {
+          font-size: 32px !important;
+          line-height: 38.4px !important;
+        }
+        .font-header-2 > div {
+          font-size: 20px !important;
+          line-height: 24px !important;
+        }
+        .footer-text {
+          font-size: 10px !important;
+          line-height: 15px !important;
+        }
+        
+        .header-image img {
+          width: 75px !important;
+          height: 44px!important;
+        }
+
+        .sections > table > tbody > tr > td {
+          padding: 32px 20px !important;
+        }
+
+        .image-text-cta-header {
+          padding-left: 0px !important;
+          padding-right: 0px !important;
+        }
+
+        .mobile-blog-image-padding > table > tbody > tr > td {
+          padding-left: 0px !important;
+        }
+
+        .mobile-blog-text-padding > table > tbody > tr > td {
+          padding-left: 20px !important;
+        }
+
+        .cta-sec-link {
+          padding-left: 0px !important;
+          padding-top: 24px !important;
+        }
+
+        .cta-sec-section > table > tbody > tr > td {
+          padding: 48px 40px 64px !important;
+        }
+        
+        .footer-text-padding {
+          padding: 0px !important;
+        }
+      }
+    </mj-style>
+    <mj-style>
+      /* RELOCATE: head-styles */
+    </mj-style>
+  </mj-head>
+  <mj-body width="640px" background-color='#FFFFFF'>
+    <!-- split -->
+  </mj-body>
+</mjml>
