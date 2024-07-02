@@ -1,0 +1,9 @@
+<!-- START: Header: Compatibility -->
+<mj-section background-color="#DDDFE5" padding="20px 23px" css-class="">
+  <mj-column>
+    <mj-text font-family="Helvetica, Arial, 'sans-serif'" font-size="10px" line-height="10px" color="#494949">
+      <span pardot-region-type="simple" pardot-region="simple">{{text}}</span> | <a href="{{link}}" target="_blank" style="color: #494949;" pardot-region-type="link" pardot-region="header-compat-link"> {{linkText}} </a>
+    </mj-text>
+  </mj-column>
+</mj-section>
+<!-- END: Header: Compatibility -->

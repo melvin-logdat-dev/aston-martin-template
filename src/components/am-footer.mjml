@@ -1,0 +1,33 @@
+<!-- START: Statistics -->
+<mj-raw>
+  <style>
+    /* START: head-styles */
+    @media screen and (max-width: 639px) {
+        .am-footer-section > table > tbody > tr > td {
+            padding-left: 20px !important;
+            padding-right: 20px !important;
+            padding-bottom: 40px !important;
+        }
+    }
+
+    strong {
+        font-weight: bold !important;
+    }
+    /* END: head-styles */
+   
+  </style>
+</mj-raw>
+<mj-section background-color="{{sectionBackground}}" padding="40px 60px 60px" css-class="am-footer-section">
+   <mj-column width="100%" align="center">
+        <mj-text mj-class="font-header" css-class="am-footer-desc" color ="#ffffff" padding ="0 0 20px" font-size ="11px" font-weight ="400" line-height ="16px" align="center" >
+            {{{footerDesc}}}
+        </mj-text>
+        <mj-text mj-class="font-header" css-class="am-footer-links" color ="#ffffff" padding ="0 0 20px" font-size ="12px" font-weight ="400" line-height ="20px" align="center" >
+            {{{footerLinks}}}
+        </mj-text>
+        <mj-text mj-class="font-header" css-class="am-footer-copyright" color ="#ffffff" padding ="0" font-size ="12px" font-weight ="400" line-height ="20px" align="center" >
+            {{{footerCopyRights}}}
+        </mj-text>
+    </mj-column>
+</mj-section>
+<!-- END: Statistics -->

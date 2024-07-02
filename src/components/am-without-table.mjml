@@ -1,0 +1,65 @@
+<!-- START: Statistics -->
+<mj-raw>
+  <style>
+    /* START: head-styles */
+    @media screen and (max-width: 639px) {
+      .am-stats-body > table > tbody > tr > td {
+         padding-left: 20px !important;
+         padding-right: 20px !important;
+      }
+
+      .am-stat-header--main div{
+        font-size: 24px !important;
+      }
+
+      .am-stat-header--sub br {
+        display: none !important;
+      }
+    }
+
+    @media screen and (max-width: 340px) {
+      .table--header, .table--text {
+        padding-left: 4px !important;
+        padding-right: 4px !important;
+      }
+    }
+
+    strong {
+        font-weight: bold !important;
+    }
+    /* END: head-styles */
+   
+  </style>
+</mj-raw>
+<mj-section background-color="{{sectionBackground}}" padding="55px 60px 0" css-class="am-stats-body">
+  <mj-group>
+    <mj-column width="100%" align="center">
+        <mj-text mj-class="font-header" css-class="am-stat-header--main" color ="#181818" padding ="0 0 30px" font-size ="28px" font-weight ="400" line-height ="31px" align="center" >
+            {{{sectionHeading}}}
+        </mj-text>
+        {{#each subHeadingsBlock}}
+            <mj-text mj-class="font-header" css-class="am-stat-header--sub" color ="#181818" padding ="0 0 25px" font-size="16px" font-weight ="400" line-height ="24px" align="center">
+                {{{this.sectionSubHeading}}}
+            </mj-text>
+        {{/each}}
+    </mj-column>
+  </mj-group>
+</mj-section>
+<mj-section background-color="{{sectionBackground}}" padding="25px 60px 55px" css-class="am-stats-body">
+    <mj-column width="100%">
+        <mj-raw>
+           <tr>
+		        <td style="font-family:'Aston Martin Sans', Arial, sans-serif; font-size:14px; line-height:22px; color:#FFFFFF; text-align:center; padding-bottom:0;padding-left:0px;">
+                    <table class="fullwidth cta-button" width="260" border="0" cellspacing="0" cellpadding="0" align="center">
+                        <tbody>
+                            <tr>
+                                <td height="40" valign="middle" style="background-color:#00665E; font-family:'Aston Martin Sans', Arial, sans-serif; font-size:14px; line-height:14px; color:#eeeeee; text-align:center; border-width:1px; border-color:#00665E; border-style:solid;"><a href="{{link}}" target="_blank" style="color:#FFFFFF; text-decoration:none; display:block; padding-top:17px; padding-right:0px; padding-bottom:15px; padding-left:0px;">{{buttonText}}</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+		        </td>
+		      </tr>
+      </mj-raw>
+    </mj-column>
+</mj-section>
+<!-- END: Statistics -->

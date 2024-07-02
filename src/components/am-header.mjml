@@ -1,0 +1,39 @@
+<!-- START: Header type 1 -->
+<mj-raw>
+  <style>
+    /* START: head-styles */
+    @media screen and (max-width: 639px) {
+      .am-email-header > table > tbody > tr > td {
+        padding: 20px !important;
+      }
+
+      .am-font-header--main {
+        padding-top: 20px !important;
+      }
+
+      .am-font-header--main div {
+        font-size: 28px !important;
+      }
+
+      .am-font-header--sub div {
+        font-size: 16px !important;
+      }
+    }
+    /* END: head-styles */
+   
+  </style>
+</mj-raw>
+<mj-section background-color="{{headerBackground}}" padding="55px 60px 40px 60px" css-class="am-email-header">
+  <mj-group>
+    <mj-column width="100%" align="center">
+      <mj-image src="{{imgSrc}}" alt="{{imgAlt}}" width="{{width}}" height="{{height}}" href="{{link}}" css-class="am-header-image" align="center" padding ="10px 0"/>
+        <mj-text mj-class="font-header" css-class="am-font-header--main" color ="#ffffff" padding ="45px 0 10px" font-size ="34px" font-weight ="400" line-height ="32px" align="center" font-family="'Aston Martin Flare', Helvetica, Arial, 'sans-serif'" >
+            {{headerTitle}}
+        </mj-text>
+          <mj-text mj-class="font-header" css-class="am-font-header--sub" color ="#ffffff" padding ="10px 0 20px" font-size="18px" font-weight ="400" line-height ="22px" align="center">
+            {{headerSubTitle}}
+          </mj-text>
+    </mj-column>
+  </mj-group>
+</mj-section>
+<!-- END: Header type 1 -->

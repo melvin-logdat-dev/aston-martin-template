@@ -1,7 +1,7 @@
 {
-  "name": "Email MJML Template v2",
+  "name": "Aston Martin Email Templates",
   "version": "1.0.0",
-  "description": "Examples",
+  "description": "Templates here:",
   "main": "index.js",
   "type": "module",
   "scripts": {

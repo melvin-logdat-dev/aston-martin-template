@@ -1,0 +1,107 @@
+{
+  "name": "AM-DBX707-APR-C-A",
+  "content": [
+    {
+      "template" : "header-compatibility.mjml",
+      "variables" : {
+        "text" : "Email not displaying correctly?",
+        "linkText" : "View in Browser",
+        "link" : "#"
+      }
+    },
+    {
+      "template": "am-header.mjml",
+      "variables": {
+        "headerBackground": "#00665F",
+        "imgSrc": "https://i.postimg.cc/W1p6KqHb/Aston-Martin-Logo.png",
+        "imgAlt": "ASTON MARTIN",
+        "height": "48px",
+        "width": "212px",
+        "link": "#",
+        "headerTitle": "DBX707",
+        "headerSubTitle": "THE SUPERCAR OF SUVs"
+      }
+    },
+    {
+      "template": "hero-1.mjml",
+      "variables": {
+        "imgSrc": "https://i.postimg.cc/vTBbkzft/hero.png",
+        "padding": "0px"
+      }
+    },
+    {
+      "template": "am-margin-size.mjml",
+      "variables": {
+        "sectionBackground": "#EFEDE9",
+        "sectionHeading": "2.99% APR FINANCING <br> 72 months",
+        "sectionSubHeading": "Blistering Aston Martin sports car performance. In a luxury SUV. Colossal power you can access and control.",
+        "table": [
+          {
+            "borderColor": "transparent",
+            "columnTitle": "POWER HP",
+            "columnData": "697"
+          },
+          {
+            "borderColor": "#181818",
+            "columnTitle": "TOP SPEED MPH",
+            "columnData": "193"
+          },
+          {
+            "borderColor": "#181818",
+            "columnTitle": "0‑60MPH S",
+            "columnData": "3.1"
+          },
+          {
+            "borderColor": "#181818",
+            "columnTitle": "TORQUE LB‑FT",
+            "columnData": "663"
+          }
+        ],
+        "buttonText": "TEST DRIVE DBX",
+        "link": "https://www.astonmartin.com/en-us/campaigns/dbx707-discover?utm_source=print&utm_medium=elite_traveller&utm_campaign=elitetraveller_us&utm_content=cta"
+      }
+    },
+    {
+      "template": "am-content-block.mjml",
+      "variables": {
+        "sectionBackground": "#004F59",
+        "contentBlocks": [
+          {
+            "imgSrc": "https://i.postimg.cc/jdn4rrsB/image-1.jpg",
+            "imgAlt": "Car Image",
+            "contentHeading": "NEW LEVELS OF DYNAMIC PERFORMANCE",
+            "contentBodyBlocks": [
+              {
+                "contentBody": "DBX707 is fitted with the most powerful engine of any production <br> luxury SUV in the world today. Engineered by Aston Martin, the mighty <br> 697 HP is backed by no fewer than 663 LB-FT of torque, giving you <br> access to sports car performance, thunderous acceleration and <br> commanding the highest top speed of any comparable luxury SUV.",
+                "paddingBottomSpace": "55px"
+              }
+            ]
+          },
+          {
+            "imgSrc": "https://i.postimg.cc/ZnmnsgLB/image-2.png",
+            "imgAlt": "Car Image",
+            "contentHeading": "UNMISTAKABLE STYLE, ABSOLUTE LUXURY",
+            "contentBodyBlocks": [
+              {
+               "contentBody": "The 'Inspire Sport' interior is exclusive to DBX707. Find yourself at the <br> epicenter where Sport and Luxury meet, with semi-aniline leather <br> upholstery, sport quilting, perforations on the seats, extra thick <br> carpets, a split-rim steering wheel and leather headlining.",
+              "paddingBottomSpace": "55px"
+              }
+            ]
+          }
+        ],
+        "buttonText": "EXPLORE DBX",
+        "link": "https://www.astonmartin.com/en/models/dbx707?utm_source=print&utm_medium=elite_traveller&utm_campaign=elitetraveller_us&utm_content=cta"
+      }
+    },
+    {
+      "template": "am-footer.mjml",
+      "variables": {
+        "sectionBackground": "#181818",
+        "footerDesc": "Qualified customers only, 2.99% APR financing for 72 months at $15.19 per month per $1,000.00 financed. Excludes leases and balloon contracts. Available only at participating Aston Martin dealers through Aston Martin Financial Services. Must take delivery of vehicle by 07/31/2024. Subject to credit approval by lender. Rate applies only to the model year 2024 Aston Martin DBX707. Excludes AMR23 and Q Edition models. Not everyone will qualify. See an authorized Aston Martin dealer for complete details on this offer.",
+        "footerLinks": "<a href='#' style ='text-decoration: none; color:#EFEDE9;'>Unsubscribe</a> | <a href='#' style ='text-decoration: none; color:#EFEDE9;'>View Online</a>",
+        "footerCopyRights": "© 2024 Aston Martin"
+      }
+    }
+  ],
+  "dateModified": "2024-28-06T01:49:12.384Z"
+}

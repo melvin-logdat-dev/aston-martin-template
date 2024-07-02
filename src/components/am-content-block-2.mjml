@@ -1,0 +1,51 @@
+<!-- START: Statistics -->
+<mj-raw>
+  <style>
+    /* START: head-styles */
+    @media screen and (max-width: 639px) {
+        .am-content-section > table > tbody > tr > td {
+            padding-left: 20px !important;
+            padding-right: 20px !important;
+        }
+    }
+
+    strong {
+        font-weight: bold !important;
+    }
+    /* END: head-styles */
+   
+  </style>
+</mj-raw>
+<mj-section background-color="{{sectionBackground}}" padding="60px 60px 0px" css-class="am-content-section">
+   <mj-column width="100%" align="center">
+        {{#each contentBlocks}} 
+            <mj-image src="{{this.imgSrc}}" alt="{{this.imgAlt}}" css-class="am-block-image" padding-bottom ="30px"/>
+            {{#if contentHeading}}
+                <mj-text mj-class="font-header" css-class="am-content-header" color ="#ffffff" padding ="0 0 20px" font-size ="18px" font-weight ="400" line-height ="22px" align="center" >
+                    {{this.contentHeading}}
+                </mj-text>
+            {{/if}}
+            <mj-text mj-class="font-header" css-class="am-content-body" color ="#ffffff" padding ="0px 0 55px" font-size ="14px" font-weight ="300" line-height ="22px" align="center" >
+                {{{this.contentBody}}}
+            </mj-text>
+         {{/each}}
+    </mj-column>
+</mj-section>
+<mj-section background-color="{{sectionBackground}}" padding="0px 60px 55px" css-class="am-stats-body">
+    <mj-column width="100%">
+        <mj-raw>
+           <tr>
+		        <td style="font-family:'Aston Martin Sans', Arial, sans-serif; font-size:14px; line-height:22px; color:#FFFFFF; text-align:center; padding-bottom:0;padding-left:0px;">
+                    <table class="fullwidth cta-button" width="260" border="0" cellspacing="0" cellpadding="0" align="center">
+                        <tbody>
+                            <tr>
+                                <td height="40" valign="middle" style="background-color:#EFEDE9; font-family:'Aston Martin Sans', Arial, sans-serif; font-size:14px; line-height:14px; color:#004F59; text-align:center; border-width:1px; border-color:#EFEDE9; border-style:solid;"><a href="{{link}}" target="_blank" style="color:#004F59; text-decoration:none; display:block; padding-top:17px; padding-right:0px; padding-bottom:15px; padding-left:0px;">{{buttonText}}</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+		        </td>
+		      </tr>
+      </mj-raw>
+    </mj-column>
+</mj-section>
+<!-- END: Statistics -->

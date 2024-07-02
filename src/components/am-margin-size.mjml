@@ -1,0 +1,86 @@
+<!-- START: Statistics -->
+<mj-raw>
+  <style>
+    /* START: head-styles */
+    @media screen and (max-width: 639px) {
+      .am-stats-body > table > tbody > tr > td {
+         padding-left: 20px !important;
+         padding-right: 20px !important;
+      }
+
+      .table--header div {
+        font-size: 8px !important;
+      }
+
+      .table--text div {
+        font-size: 25px !important;
+      }
+
+      .am-table > table > tbody > tr > td {
+         padding-left: 0px !important;
+         padding-right: 0px !important;
+      }
+
+      .am-stat-header--main div{
+        font-size: 24px !important;
+      }
+    }
+
+    @media screen and (max-width: 340px) {
+      .table--header, .table--text {
+        padding-left: 4px !important;
+        padding-right: 4px !important;
+      }
+    }
+
+    strong {
+        font-weight: bold !important;
+    }
+    /* END: head-styles */
+   
+  </style>
+</mj-raw>
+<mj-section background-color="{{sectionBackground}}" padding="55px 60px 0" css-class="am-stats-body">
+  <mj-group>
+    <mj-column width="100%" align="center">
+        <mj-text mj-class="font-header" css-class="am-stat-header--main" color ="#181818" padding ="0 0 30px" font-size ="28px" font-weight ="400" line-height ="31px" align="center" >
+            {{{sectionHeading}}}
+        </mj-text>
+          <mj-text mj-class="font-header" css-class="am-stat-header--sub" color ="#181818" padding ="0px 0 25px" font-size="16px" font-weight ="400" line-height ="24px" align="center">
+            {{{sectionSubHeading}}}
+          </mj-text>
+    </mj-column>
+  </mj-group>
+</mj-section>
+<mj-section background-color="{{sectionBackground}}" padding="0px 60px 35px" css-class="am-table">
+    <mj-group css-class="table-group" width ="440px">
+        {{#each table}} 
+            <mj-column width="25%" border-left ="1px solid {{borderColor}}">
+                <mj-text mj-class="font-header" css-class="table--header" color ="#181818" padding ="4px 8px" font-size ="10px" font-weight ="400" line-height ="12px" align="center" >
+                    {{{columnTitle}}}
+                </mj-text>
+                <mj-text mj-class="font-header" css-class="table--text" color ="#181818" padding ="4px 8px" font-size ="34px" font-weight ="400" line-height ="34px" align="center" >
+                    {{{columnData}}}
+                </mj-text>
+            </mj-column>
+        {{/each}}
+    </mj-group>
+</mj-section>
+<mj-section background-color="{{sectionBackground}}" padding="0px 60px 55px" css-class="am-stats-body">
+    <mj-column width="100%">
+        <mj-raw>
+           <tr>
+		        <td style="font-family:'Aston Martin Sans', Arial, sans-serif; font-size:14px; line-height:22px; color:#FFFFFF; text-align:center; padding-bottom:0;padding-left:0px;">
+                    <table class="fullwidth cta-button" width="260" border="0" cellspacing="0" cellpadding="0" align="center">
+                        <tbody>
+                            <tr>
+                                <td height="40" valign="middle" style="background-color:#00665E; font-family:'Aston Martin Sans', Arial, sans-serif; font-size:14px; line-height:14px; color:#eeeeee; text-align:center; border-width:1px; border-color:#00665E; border-style:solid;"><a href="{{link}}" target="_blank" style="color:#FFFFFF; text-decoration:none; display:block; padding-top:17px; padding-right:0px; padding-bottom:15px; padding-left:0px;">{{buttonText}}</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+		        </td>
+		      </tr>
+      </mj-raw>
+    </mj-column>
+</mj-section>
+<!-- END: Statistics -->

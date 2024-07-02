@@ -1,0 +1,77 @@
+{
+  "name": "AM-DBX505-APR-C-B",
+  "content": [
+    {
+      "template" : "header-compatibility.mjml",
+      "variables" : {
+        "text" : "Email not displaying correctly?",
+        "linkText" : "View in Browser",
+        "link" : "#"
+      }
+    },
+    {
+      "template": "am-header.mjml",
+      "variables": {
+        "headerBackground": "#00665F",
+        "imgSrc": "https://i.postimg.cc/W1p6KqHb/Aston-Martin-Logo.png",
+        "imgAlt": "ASTON MARTIN",
+        "height": "48px",
+        "width": "212px",
+        "link": "#",
+        "headerTitle": "DBX V8",
+        "headerSubTitle": "POWER. DRIVEN."
+      }
+    },
+    {
+      "template": "hero-1.mjml",
+      "variables": {
+        "imgSrc": "https://i.postimg.cc/hPzyS58Q/hero2.png",
+        "padding": "0px"
+      }
+    },
+    {
+      "template": "am-without-table.mjml",
+      "variables": {
+        "sectionBackground": "#EFEDE9",
+        "sectionHeading": "1.99%  APR FINANCING <br> 72 months",
+        "subHeadingsBlock": [
+          {
+           "sectionSubHeading": "Founded on the principles of beauty, luxury and driving <br> dynamics, DBX combines refined sportscar <br> performance with outstanding versatility. It pushes the <br> boundaries of what is possible for an SUV. "
+          }
+        ],
+        "buttonText": "TEST DRIVE DBX",
+        "link": "https://www.astonmartin.com/en-us/campaigns/dbx707-discover?utm_source=print&utm_medium=elite_traveller&utm_campaign=elitetraveller_us&utm_content=cta"
+      }
+    },
+    {
+      "template": "am-content-block.mjml",
+      "variables": {
+        "sectionBackground": "#181818",
+        "contentBlocks": [
+          {
+            "imgSrc": "https://i.postimg.cc/T32cKNgc/group-image-2.png",
+            "imgAlt": "Car Image",
+            "contentBodyBlocks": [
+              {
+                "contentBody": "A dramatic shape gives DBX V8 a striking profile that reflects the <br> unique silhouette of today’s Aston Martin. Inside, the finest wood, <br> carbon fiber, and leather, create a sumptuously comfortable <br> environment for everyone. ",
+                "paddingBottomSpace": "45px"
+              }
+            ]
+          }
+        ],
+        "buttonText": "EXPLORE DBX",
+        "link": "https://www.astonmartin.com/en/models/dbx707?utm_source=print&utm_medium=elite_traveller&utm_campaign=elitetraveller_us&utm_content=cta"
+      }
+    },
+    {
+      "template": "am-footer.mjml",
+      "variables": {
+        "sectionBackground": "#004F59",
+        "footerDesc": "Qualified customers only, 2.99% APR financing for 72 months at $15.19 per month per $1,000.00 financed. Excludes leases and balloon contracts. Available only at participating Aston Martin dealers through Aston Martin Financial Services. Must take delivery of vehicle by 07/31/2024. Subject to credit approval by lender. Rate applies only to the model year 2024 Aston Martin DBX707. Excludes AMR23 and Q Edition models. Not everyone will qualify. See an authorized Aston Martin dealer for complete details on this offer.",
+        "footerLinks": "<a href='#' style ='text-decoration: none; color:#EFEDE9;'>Unsubscribe</a> | <a href='#' style ='text-decoration: none; color:#EFEDE9;'>View Online</a>",
+        "footerCopyRights": "© 2024 Aston Martin"
+      }
+    }
+  ],
+  "dateModified": "2024-28-06T01:49:12.384Z"
+}
